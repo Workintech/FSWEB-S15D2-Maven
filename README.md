@@ -1,15 +1,8 @@
-#  Java Sets
 
-### Proje Kurulumu
 
-Projeyi öncelikle forklayın ve clone edin.
-Daha sonra projeyi IntellijIDEA kullanarak açınız. README.md dosyasını dikkatli bir şekilde okuyarak istenenleri yapmaya çalışın.
-Proje sayımız ilerledikçe proje yönetimimizi kolaylaştırmak adına projelerimizi belli klasör kalıplarında saklamak işimizi kolaylaştırmak adına iyi bir alışkanlıktır.
-Örnek bir Lokasyon: Workintech/Sprint_1/Etud.
+# Hedeflerimiz:
 
-### Hedeflerimiz:
-
-### 1-)Set Challenge
+## 1-)Set Challenge
 
  * org.example.entity paketi altında İki tane sınıfımız olucak. ```Task``` ve ```TaskData```
  * ```Task``` sınıfı içerisinde 5 tane ```instance variable``` olmalı. ```project``` => string ```description``` => string ```assignee``` => string
@@ -19,7 +12,7 @@ Proje sayımız ilerledikçe proje yönetimimizi kolaylaştırmak adına projele
  * TaskData sınıfı 4 tane değişkene sahip olmalı  ```annsTasks => Set<Task>```   ```bobsTasks => Set<Task>```  ```carolsTasks => Set<Task>``` ```unassignedTasks => Set<Task>``` Bu 4 değerde constructor vasıtasıyla set edilebilmeli.
  * TaskData sınıfı ```getTasks()``` adlı bir metoda sahip olmalı. method parametre olarak bir String almalı. Bu 4 değerden herhangi birini alabilir. ("ann", "bob", "carol", "all") Metodun dönüş değeri ```Set<Task>``` olmalı.
  
-### Senaryo
+## Senaryo
 
 * Şöyle bir senaryomuz var. Sen şirketteki yeni bir yöneticisin ve ekibinde 3 tane çalışanın var.
 * Ann, Bob, Carol 3'ü de senin çalışanların.
@@ -38,7 +31,7 @@ Proje sayımız ilerledikçe proje yönetimimizi kolaylaştırmak adına projele
 * ```getIntersect()``` metodu iki tane set alır ve aralarındaki kesişim kümesini bulup döner.
 * ```getDifference()``` metodu iki tane set alır ve ikinci set içerisindeki verileri ilk set içerisindeki verilerden çıkarır.
 
-### 2-) Challenge
+## 2-) Challenge
 
 * Elimizde aşağıdaki gibi bir text mevcut.
 * org.example.entity paketi altında StringSet adında bir sınıf tanımlayın.
